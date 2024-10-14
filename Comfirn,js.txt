@@ -1,0 +1,12 @@
+let nombre = prompt("Por favor, ingresa tu nombre:");
+if (nombre) {
+    let confirmarNombre = confirm("¿Confirmas que tu nombre es " + nombre + "?");
+    if (confirmarNombre) {
+        alert("Gracias, " + nombre + ". ¡Es un gusto conocerte!");
+    } else {
+        alert("Lastimosamente no comfirmaste tu nombre.");
+    }
+} else {
+    alert("No me has dicho tu nombre.");
+}
+
